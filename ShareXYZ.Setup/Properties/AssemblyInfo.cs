@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ShareXYZ Setup")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ShareX Team")]
+[assembly: AssemblyCompany("ShareXYZ Team")]
 [assembly: AssemblyProduct("ShareX")]
-[assembly: AssemblyCopyright("Copyright (c) 2007-2015 ShareX Team")]
+[assembly: AssemblyCopyright("Copyright (c) 2015 ShareXYZ Team, 2007-2015 ShareX Team")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
