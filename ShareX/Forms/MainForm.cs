@@ -990,11 +990,6 @@ namespace ShareX
             TaskHelpers.OpenFTPClient();
         }
 
-        private void tsmiIRCClient_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenIRCClient();
-        }
-
         private void tsmiTweetMessage_Click(object sender, EventArgs e)
         {
             TaskHelpers.TweetMessage();

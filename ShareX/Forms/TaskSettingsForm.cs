@@ -283,9 +283,6 @@ namespace ShareX
             // Tools / Video thumbnailer
             pgVideoThumbnailer.SelectedObject = TaskSettings.ToolsSettings.VideoThumbnailOptions;
 
-            // Tools / IRC client
-            pgIRCClient.SelectedObject = TaskSettings.ToolsSettings.IRCSettings;
-
             // Advanced
             pgTaskSettings.SelectedObject = TaskSettings.AdvancedSettings;
 
@@ -333,7 +330,7 @@ namespace ShareX
                 pCapture.Enabled = ((Control)tpRegionCapture).Enabled = ((Control)tpScreenRecorder).Enabled = ((Control)tpRectangleAnnotate).Enabled = !TaskSettings.UseDefaultCaptureSettings;
                 pActions.Enabled = !TaskSettings.UseDefaultActions;
                 pUpload.Enabled = ((Control)tpUploadClipboard).Enabled = !TaskSettings.UseDefaultUploadSettings;
-                ((Control)tpIndexer).Enabled = ((Control)tpVideoThumbnailer).Enabled = ((Control)tpIRCClient).Enabled = !TaskSettings.UseDefaultToolsSettings;
+                ((Control)tpIndexer).Enabled = ((Control)tpVideoThumbnailer).Enabled = !TaskSettings.UseDefaultToolsSettings;
                 pgTaskSettings.Enabled = !TaskSettings.UseDefaultAdvancedSettings;
             }
         }
