@@ -240,7 +240,7 @@ namespace ShareXYZ
 
             if (IsMultiInstance || ApplicationInstanceManager.CreateSingleInstance(SingleInstanceCallback, args))
             {
-                using (Mutex mutex = new Mutex(false, "82E6AC09-0FEF-4390-AD9F-0DD3F5561EFC")) // Required for installer
+                using (Mutex mutex = new Mutex(false, "09949CF0-52B9-11E5-B970-0800200C9A66")) // Required for installer
                 {
                     Run();
                 }
