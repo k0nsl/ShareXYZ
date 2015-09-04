@@ -51,8 +51,6 @@ namespace ShareXYZ.HelpersLib
         private static readonly string ShellExtIcon = ApplicationPath + ",0";
         private static readonly string ShellExtPath = ApplicationPath + " \"%1\"";
 
-        private static readonly string ChromeNativeMessagingHosts = @"SOFTWARE\Google\Chrome\NativeMessagingHosts\com.getShareXYZ.sharex";
-
         public static bool CheckStartWithWindows()
         {
             try
@@ -145,16 +143,6 @@ namespace ShareXYZ.HelpersLib
             RemoveRegistry(ShellExtMenuDirectory);
             RemoveRegistry(ShellExtMenuFoldersCmd);
             RemoveRegistry(ShellExtMenuFolders);
-        }
-
-        public static void RegisterChromeSupport(string filepath)
-        {
-            CreateRegistry(ChromeNativeMessagingHosts, filepath);
-        }
-
-        public static void UnregisterChromeSupport()
-        {
-            RemoveRegistry(ChromeNativeMessagingHosts);
         }
 
         public static ExternalProgram FindProgram(string name, string filename)
