@@ -175,7 +175,6 @@ namespace ShareXYZ
         IndexFolder,
         FTPClient,
         TweetMessage,
-        MonitorTest,
         // Other
         DisableHotkeys,
         OpenScreenshotsFolder

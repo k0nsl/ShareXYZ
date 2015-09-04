@@ -972,11 +972,6 @@ namespace ShareXYZ
             TaskHelpers.TweetMessage();
         }
 
-        private void tsmiMonitorTest_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenMonitorTest();
-        }
-
         private void tsddbDestinations_DropDownOpened(object sender, EventArgs e)
         {
             UpdateDestinationStates();
@@ -1650,9 +1645,6 @@ namespace ShareXYZ
                     break;
                 case HotkeyType.TweetMessage:
                     TaskHelpers.TweetMessage();
-                    break;
-                case HotkeyType.MonitorTest:
-                    TaskHelpers.OpenMonitorTest();
                     break;
                 // Other
                 case HotkeyType.OpenScreenshotsFolder:

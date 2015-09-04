@@ -534,12 +534,6 @@
   <data name="tsmiTweetMessage.Text" xml:space="preserve">
     <value>Tweet message...</value>
   </data>
-  <data name="tsmiMonitorTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Monitor test...</value>
-  </data>
   <data name="tsddbTools.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -1278,12 +1272,6 @@
   <data name="tsmiTrayTweetMessage.Text" xml:space="preserve">
     <value>Tweet message...</value>
   </data>
-  <data name="tsmiTrayMonitorTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Monitor test...</value>
-  </data>
   <data name="tsmiTrayTools.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
@@ -1696,12 +1684,6 @@
     <value>tsmiTweetMessage</value>
   </data>
   <data name="&gt;&gt;tsmiTweetMessage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiMonitorTest.Name" xml:space="preserve">
-    <value>tsmiMonitorTest</value>
-  </data>
-  <data name="&gt;&gt;tsmiMonitorTest.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssMain1.Name" xml:space="preserve">
@@ -2362,12 +2344,6 @@
     <value>tsmiTrayTweetMessage</value>
   </data>
   <data name="&gt;&gt;tsmiTrayTweetMessage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayMonitorTest.Name" xml:space="preserve">
-    <value>tsmiTrayMonitorTest</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayMonitorTest.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssTray1.Name" xml:space="preserve">

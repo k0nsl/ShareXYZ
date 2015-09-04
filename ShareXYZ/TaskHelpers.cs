@@ -607,26 +607,6 @@ namespace ShareXYZ
             form.Show();
         }
 
-        public static void OpenMonitorTest()
-        {
-            using (MonitorTestForm monitorTestForm = new MonitorTestForm())
-            {
-                monitorTestForm.ShowDialog();
-            }
-        }
-
-        public static void RunShareXAsAdmin(string arguments)
-        {
-            try
-            {
-                ProcessStartInfo psi = new ProcessStartInfo(Application.ExecutablePath);
-                psi.Arguments = arguments;
-                psi.Verb = "runas";
-                Process.Start(psi);
-            }
-            catch { }
-        }
-
         public static void OpenQRCode()
         {
             new QRCodeForm().Show();

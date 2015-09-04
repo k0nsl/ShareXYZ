@@ -76,7 +76,6 @@
             this.tsmiVideoThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiFTPClient = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTweetMessage = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiMonitorTest = new System.Windows.Forms.ToolStripMenuItem();
             this.tssMain1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsddbAfterCaptureTasks = new System.Windows.Forms.ToolStripDropDownButton();
             this.tsddbAfterUploadTasks = new System.Windows.Forms.ToolStripDropDownButton();
@@ -189,7 +188,6 @@
             this.tsmiTrayVideoThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayFTPClient = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayTweetMessage = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiTrayMonitorTest = new System.Windows.Forms.ToolStripMenuItem();
             this.tssTray1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmiTrayAfterCaptureTasks = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayAfterUploadTasks = new System.Windows.Forms.ToolStripMenuItem();
@@ -539,8 +537,7 @@
             this.tsmiIndexFolder,
             this.tsmiVideoThumbnailer,
             this.tsmiFTPClient,
-            this.tsmiTweetMessage,
-            this.tsmiMonitorTest});
+            this.tsmiTweetMessage});
             this.tsddbTools.Image = global::ShareXYZ.Properties.Resources.toolbox;
             resources.ApplyResources(this.tsddbTools, "tsddbTools");
             this.tsddbTools.Name = "tsddbTools";
@@ -607,13 +604,6 @@
             this.tsmiTweetMessage.Name = "tsmiTweetMessage";
             resources.ApplyResources(this.tsmiTweetMessage, "tsmiTweetMessage");
             this.tsmiTweetMessage.Click += new System.EventHandler(this.tsmiTweetMessage_Click);
-            // 
-            // tsmiMonitorTest
-            // 
-            this.tsmiMonitorTest.Image = global::ShareXYZ.Properties.Resources.monitor;
-            this.tsmiMonitorTest.Name = "tsmiMonitorTest";
-            resources.ApplyResources(this.tsmiMonitorTest, "tsmiMonitorTest");
-            this.tsmiMonitorTest.Click += new System.EventHandler(this.tsmiMonitorTest_Click);
             // 
             // tssMain1
             // 
@@ -1388,8 +1378,7 @@
             this.tsmiTrayIndexFolder,
             this.tsmiTrayVideoThumbnailer,
             this.tsmiTrayFTPClient,
-            this.tsmiTrayTweetMessage,
-            this.tsmiTrayMonitorTest});
+            this.tsmiTrayTweetMessage});
             this.tsmiTrayTools.Image = global::ShareXYZ.Properties.Resources.toolbox;
             this.tsmiTrayTools.Name = "tsmiTrayTools";
             resources.ApplyResources(this.tsmiTrayTools, "tsmiTrayTools");
@@ -1456,13 +1445,6 @@
             this.tsmiTrayTweetMessage.Name = "tsmiTrayTweetMessage";
             resources.ApplyResources(this.tsmiTrayTweetMessage, "tsmiTrayTweetMessage");
             this.tsmiTrayTweetMessage.Click += new System.EventHandler(this.tsmiTweetMessage_Click);
-            // 
-            // tsmiTrayMonitorTest
-            // 
-            this.tsmiTrayMonitorTest.Image = global::ShareXYZ.Properties.Resources.monitor;
-            this.tsmiTrayMonitorTest.Name = "tsmiTrayMonitorTest";
-            resources.ApplyResources(this.tsmiTrayMonitorTest, "tsmiTrayMonitorTest");
-            this.tsmiTrayMonitorTest.Click += new System.EventHandler(this.tsmiMonitorTest_Click);
             // 
             // tssTray1
             // 
@@ -1786,8 +1768,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiImageEffects;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayImageEffects;
         private System.Windows.Forms.ToolStripButton tsmiAbout;
-        private System.Windows.Forms.ToolStripMenuItem tsmiMonitorTest;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayMonitorTest;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayShow;
         private System.Windows.Forms.ToolStripMenuItem tsmiRuler;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayRuler;
