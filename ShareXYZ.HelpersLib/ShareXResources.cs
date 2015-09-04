@@ -28,7 +28,7 @@ using System.Drawing;
 
 namespace ShareXYZ.HelpersLib
 {
-    public static class ShareXResources
+    public static class ShareXYZResources
     {
         public static Icon Icon
         {

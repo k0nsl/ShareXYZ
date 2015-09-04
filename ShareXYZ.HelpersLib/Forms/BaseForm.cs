@@ -41,7 +41,7 @@ namespace ShareXYZ.HelpersLib
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(300, 300);
-            Icon = ShareXResources.Icon;
+            Icon = ShareXYZResources.Icon;
             Name = "BaseForm";
             Text = "ShareXYZ";
             ResumeLayout(false);

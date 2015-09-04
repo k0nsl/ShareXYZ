@@ -719,7 +719,7 @@ namespace ShareXYZ
 
         private void btnImageEffects_Click(object sender, EventArgs e)
         {
-            using (ImageEffectsForm imageEffectsForm = new ImageEffectsForm(ShareXResources.LogoBlack, TaskSettings.ImageSettings.ImageEffects))
+            using (ImageEffectsForm imageEffectsForm = new ImageEffectsForm(ShareXYZResources.LogoBlack, TaskSettings.ImageSettings.ImageEffects))
             {
                 if (imageEffectsForm.ShowDialog() == DialogResult.OK)
                 {

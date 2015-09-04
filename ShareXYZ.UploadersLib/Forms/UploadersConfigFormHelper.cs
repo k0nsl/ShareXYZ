@@ -1898,7 +1898,7 @@ namespace ShareXYZ.UploadersLib
                     switch (type)
                     {
                         case CustomUploaderType.Image:
-                            using (Stream stream = ShareXResources.Logo.GetStream())
+                            using (Stream stream = ShareXYZResources.Logo.GetStream())
                             {
                                 CustomImageUploader imageUploader = new CustomImageUploader(item);
                                 result = imageUploader.Upload(stream, "Test.png");
@@ -1911,7 +1911,7 @@ namespace ShareXYZ.UploadersLib
                             result.Errors = textUploader.Errors;
                             break;
                         case CustomUploaderType.File:
-                            using (Stream stream = ShareXResources.Logo.GetStream())
+                            using (Stream stream = ShareXYZResources.Logo.GetStream())
                             {
                                 CustomFileUploader fileUploader = new CustomFileUploader(item);
                                 result = fileUploader.Upload(stream, "Test.png");

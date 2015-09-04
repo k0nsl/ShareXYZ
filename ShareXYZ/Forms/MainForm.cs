@@ -500,7 +500,7 @@ namespace ShareXYZ
 
         private void LoadSettings()
         {
-            niTray.Icon = ShareXResources.Icon;
+            niTray.Icon = ShareXYZResources.Icon;
             niTray.Visible = Program.Settings.ShowTray;
 
             if (Program.Settings.RecentLinksRemember)
@@ -983,7 +983,7 @@ namespace ShareXYZ
 
         private void tsmiTestImageUpload_Click(object sender, EventArgs e)
         {
-            UploadManager.UploadImage(ShareXResources.Logo);
+            UploadManager.UploadImage(ShareXYZResources.Logo);
         }
 
         private void tsmiTestTextUpload_Click(object sender, EventArgs e)
@@ -993,7 +993,7 @@ namespace ShareXYZ
 
         private void tsmiTestFileUpload_Click(object sender, EventArgs e)
         {
-            UploadManager.UploadImage(ShareXResources.Logo, ImageDestination.FileUploader, Program.DefaultTaskSettings.FileDestination);
+            UploadManager.UploadImage(ShareXYZResources.Logo, ImageDestination.FileUploader, Program.DefaultTaskSettings.FileDestination);
         }
 
         private void tsmiTestURLShortener_Click(object sender, EventArgs e)
