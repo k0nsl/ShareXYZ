@@ -101,7 +101,7 @@ AWSSDK: http://aws.amazon.com/sdk-for-net/
 CLR Security: http://clrsecurity.codeplex.com
 
 Copyright (c) 2015 ShareXYZ Team
-    Copyright (c) 2007-2015 ShareX Team", Resources.AboutForm_AboutForm_Contributors, Resources.AboutForm_AboutForm_Translators, Resources.AboutForm_AboutForm_External_libraries);
+Copyright (c) 2007-2015 ShareX Team", Resources.AboutForm_AboutForm_Contributors, Resources.AboutForm_AboutForm_Translators, Resources.AboutForm_AboutForm_External_libraries);
         }
 
         private void AboutForm_Shown(object sender, EventArgs e)
