@@ -115,14 +115,6 @@
     </Compile>
     <Compile Include="ConvolutionMatrix.cs" />
     <Compile Include="ConvolutionMatrixManager.cs" />
-    <Compile Include="DNS\AdapterInfo.cs" />
-    <Compile Include="DNS\DNSChangerForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DNS\DNSChangerForm.Designer.cs">
-      <DependentUpon>DNSChangerForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DNS\DNSInfo.cs" />
     <Compile Include="DWMManager.cs" />
     <Compile Include="EncoderProgram.cs" />
     <Compile Include="CLI\ExternalCLIManager.cs" />
@@ -401,9 +393,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Colors\GradientPickerForm.resx">
       <DependentUpon>GradientPickerForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DNS\DNSChangerForm.resx">
-      <DependentUpon>DNSChangerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>

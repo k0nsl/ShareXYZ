@@ -71,7 +71,6 @@
             this.tsmiScreenColorPicker = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiImageEffects = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiHashCheck = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiDNSChanger = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiQRCode = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiRuler = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAutomate = new System.Windows.Forms.ToolStripMenuItem();
@@ -188,7 +187,6 @@
             this.tsmiTrayScreenColorPicker = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayImageEffects = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayHashCheck = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiTrayDNSChanger = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayQRCode = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayRuler = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayAutomate = new System.Windows.Forms.ToolStripMenuItem();
@@ -544,7 +542,6 @@
             this.tsmiScreenColorPicker,
             this.tsmiImageEffects,
             this.tsmiHashCheck,
-            this.tsmiDNSChanger,
             this.tsmiQRCode,
             this.tsmiRuler,
             this.tsmiAutomate,
@@ -584,13 +581,6 @@
             this.tsmiHashCheck.Name = "tsmiHashCheck";
             resources.ApplyResources(this.tsmiHashCheck, "tsmiHashCheck");
             this.tsmiHashCheck.Click += new System.EventHandler(this.tsmiHashCheck_Click);
-            // 
-            // tsmiDNSChanger
-            // 
-            this.tsmiDNSChanger.Image = global::ShareX.Properties.Resources.network_ip;
-            this.tsmiDNSChanger.Name = "tsmiDNSChanger";
-            resources.ApplyResources(this.tsmiDNSChanger, "tsmiDNSChanger");
-            this.tsmiDNSChanger.Click += new System.EventHandler(this.tsmiDNSChanger_Click);
             // 
             // tsmiQRCode
             // 
@@ -1426,7 +1416,6 @@
             this.tsmiTrayScreenColorPicker,
             this.tsmiTrayImageEffects,
             this.tsmiTrayHashCheck,
-            this.tsmiTrayDNSChanger,
             this.tsmiTrayQRCode,
             this.tsmiTrayRuler,
             this.tsmiTrayAutomate,
@@ -1466,13 +1455,6 @@
             this.tsmiTrayHashCheck.Name = "tsmiTrayHashCheck";
             resources.ApplyResources(this.tsmiTrayHashCheck, "tsmiTrayHashCheck");
             this.tsmiTrayHashCheck.Click += new System.EventHandler(this.tsmiHashCheck_Click);
-            // 
-            // tsmiTrayDNSChanger
-            // 
-            this.tsmiTrayDNSChanger.Image = global::ShareX.Properties.Resources.network_ip;
-            this.tsmiTrayDNSChanger.Name = "tsmiTrayDNSChanger";
-            resources.ApplyResources(this.tsmiTrayDNSChanger, "tsmiTrayDNSChanger");
-            this.tsmiTrayDNSChanger.Click += new System.EventHandler(this.tsmiDNSChanger_Click);
             // 
             // tsmiTrayQRCode
             // 
@@ -1866,8 +1848,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiMonitorTest;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayMonitorTest;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayShow;
-        private System.Windows.Forms.ToolStripMenuItem tsmiDNSChanger;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayDNSChanger;
         private System.Windows.Forms.ToolStripMenuItem tsmiRuler;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayRuler;
         private System.Windows.Forms.ToolStripMenuItem tsmiOpenThumbnailFile;

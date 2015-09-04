@@ -240,8 +240,6 @@ namespace ShareX
             CLI = new CLIManager(args);
             CLI.ParseCommands();
 
-            if (CheckAdminTasks()) return; // If ShareX opened just for be able to execute task as Admin
-
             IsMultiInstance = CLI.IsCommandExist("multi", "m");
 
             if (IsMultiInstance || ApplicationInstanceManager.CreateSingleInstance(SingleInstanceCallback, args))
@@ -557,19 +555,6 @@ namespace ShareX
             {
                 return reader.ReadLine();
             }
-        }
-
-        private static bool CheckAdminTasks()
-        {
-            if (CLI.IsCommandExist("dnschanger"))
-            {
-                Application.EnableVisualStyles();
-                Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new DNSChangerForm());
-                return true;
-            }
-
-            return false;
         }
     }
 }

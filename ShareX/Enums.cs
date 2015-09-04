@@ -170,7 +170,6 @@ namespace ShareX
         ScreenColorPicker,
         ImageEffects,
         HashCheck,
-        DNSChanger,
         QRCode,
         Ruler,
         Automate,

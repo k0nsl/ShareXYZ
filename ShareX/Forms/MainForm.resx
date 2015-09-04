@@ -504,12 +504,6 @@
   <data name="tsmiHashCheck.Text" xml:space="preserve">
     <value>Hash check...</value>
   </data>
-  <data name="tsmiDNSChanger.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
-  </data>
-  <data name="tsmiDNSChanger.Text" xml:space="preserve">
-    <value>DNS changer...</value>
-  </data>
   <data name="tsmiQRCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 22</value>
   </data>
@@ -1278,12 +1272,6 @@
   <data name="tsmiTrayHashCheck.Text" xml:space="preserve">
     <value>Hash check...</value>
   </data>
-  <data name="tsmiTrayDNSChanger.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
-  </data>
-  <data name="tsmiTrayDNSChanger.Text" xml:space="preserve">
-    <value>DNS changer...</value>
-  </data>
   <data name="tsmiTrayQRCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 22</value>
   </data>
@@ -1720,12 +1708,6 @@
     <value>tsmiHashCheck</value>
   </data>
   <data name="&gt;&gt;tsmiHashCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiDNSChanger.Name" xml:space="preserve">
-    <value>tsmiDNSChanger</value>
-  </data>
-  <data name="&gt;&gt;tsmiDNSChanger.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiQRCode.Name" xml:space="preserve">
@@ -2410,12 +2392,6 @@
     <value>tsmiTrayHashCheck</value>
   </data>
   <data name="&gt;&gt;tsmiTrayHashCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayDNSChanger.Name" xml:space="preserve">
-    <value>tsmiTrayDNSChanger</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayDNSChanger.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTrayQRCode.Name" xml:space="preserve">

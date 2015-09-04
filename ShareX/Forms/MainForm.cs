@@ -955,11 +955,6 @@ namespace ShareX
             TaskHelpers.OpenHashCheck();
         }
 
-        private void tsmiDNSChanger_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenDNSChanger();
-        }
-
         private void tsmiQRCode_Click(object sender, EventArgs e)
         {
             TaskHelpers.OpenQRCode();
@@ -1666,9 +1661,6 @@ namespace ShareX
                     break;
                 case HotkeyType.HashCheck:
                     TaskHelpers.OpenHashCheck();
-                    break;
-                case HotkeyType.DNSChanger:
-                    TaskHelpers.OpenDNSChanger();
                     break;
                 case HotkeyType.QRCode:
                     TaskHelpers.OpenQRCode();
