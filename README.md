@@ -1,14 +1,14 @@
-### Website: [getsharex.com](https://getsharex.com)
-### ShareX Steam Greenlight page:
-### http://steamcommunity.com/sharedfiles/filedetails/?id=491692781
+### Website: [getshare.xyz](https://getshare.xyz)
 
-[![](https://getsharex.com/img/ShareX_Screenshot.png)](https://getsharex.com)
+ShareXYZ is a fork of ShareX
+
+[![](http://i.imgur.com/CpOvwO8.png)](https://getshare.xyz)
 
 # Features
 
 ## Capturing
 
-ShareX incorporates the following methods to allow screen capture.
+ShareXYZ incorporates the following methods to allow screen capture.
 
 * Fullscreen: Creates a screenshot of the entire screen area.
 * Active window: Captures the currently active window.
@@ -34,8 +34,7 @@ ShareX incorporates the following methods to allow screen capture.
 
 You can select any or all of these tasks to be automatically run after each screen capture.
 
-* Add image effects / watermark: You can choose from over 37 image effects including watermark and apply them to an image.
-* Open in image editor: Using [Greenshot](http://getgreenshot.org) image editor to annotate image.
+* Add image effects / watermark: You can choose from many image effects including watermark and apply them to an image.
 * Copy image to clipboard: Copies image to clipboard.
 * Print image: Be able to print images with printer device.
 * Save image to file: Saves image as file with your preferred image format.
@@ -165,14 +164,10 @@ Additional tools to make certain tasks more efficient.
 
 * Color picker: Allows you to select color from color box or screen and provide values of RGB, Hue, Saturation and Brightness from selected color.
 * Screen color picker: As the name suggests, allows you to retrieve the color from anywhere on the screen and copies it to clipboard.
-* Image editor: Based on [Greenshot](http://getgreenshot.org) image editor. It offers functions such as ability to add annotations, highlighting or obfuscations to the screenshot. It allows to draw basic shapes (rectangles, ellipses, lines, arrows and freehand) and add text to a screenshot.
-* Image effects: Allows to apply over 37 different image effects with their own settings to image. Edited images can be saved in PNG or other formats.
-* Hash check: Allows you to check/compare file hash values.
-* DNS changer: Allows you to quickly change computer DNS settings with popular DNS servers such as [Google DNS](https://developers.google.com/speed/public-dns/).
+* Image effects: Allows to apply many different image effects with their own settings to image. Edited images can be saved in PNG or other formats.
 * QR code: Open QR code window which you can enter text to get QR code of it. You can copy QR code image to your clipboard or save as file.
 * Ruler: Allows you to get X, Y, width, height, distance and angle information on screen.
-* Automate: Allows you to write simple script to automate mouse and keyboard commands.
 * Index folder: Allows you to share the index of a folder contents by uploading the index of the selected folder as text, html or xml.
 * FTP client: Opens a basic FTP client you interface for the currently configured FTP account.
 * Tweet message: Allows you to post message to Twitter.
-* Monitor test: Allows you to render different colors on the screen which provides you the opportunity to test for bleeding and dead pixels on LCD monitors.
+
