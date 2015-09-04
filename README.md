@@ -2,7 +2,7 @@
 
 ShareXYZ is a fork of ShareX
 
-[![](http://i.imgur.com/CpOvwO8.png)](https://getshare.xyz)
+[![](http://i.imgur.com/Dq3Sl78.png)](https://getshare.xyz)
 
 # Features
 
