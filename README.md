@@ -48,15 +48,15 @@ You can select any or all of these tasks to be automatically run after each scre
 
 ## Uploading
 
-ShareX has multiple ways to upload files.
+ShareXYZ has multiple ways to upload files.
 
 * Upload file: Uploads file to selected host according to file data type.
 * Upload folder: Uploads files inside folder.
-* Upload from clipboard: ShareX will automatically detect clipboard format and select tasks accordingly. It will first check if clipboard data format is an image, text or file. If the data format is text then it can check whether it is a URL or plaintext. If it is a URL then it can automatically shorten the URL or upload URL contents by downloading the file from the URL and uploading the content. It can also check whether it is a folder so it can index the contents of the folder. These settings are customizable through “Task settings” and are disabled by default due to privacy reasons.
+* Upload from clipboard: ShareXYZ will automatically detect clipboard format and select tasks accordingly. It will first check if clipboard data format is an image, text or file. If the data format is text then it can check whether it is a URL or plaintext. If it is a URL then it can automatically shorten the URL or upload URL contents by downloading the file from the URL and uploading the content. It can also check whether it is a folder so it can index the contents of the folder. These settings are customizable through “Task settings” and are disabled by default due to privacy reasons.
 * Upload from URL: Downloads file from URL and uploads it to a selected host.
-* Drag and drop upload (drop area or main window): You can drag and drop files to ShareX main window or to the drag & drop box in order to upload them.
-* Shell context menu: In Windows you can right click file and select “Upload with ShareX” to upload that file.
-* Send to (via Windows Explorer): Also when you right click file ShareX will be in “Send to” submenu.
+* Drag and drop upload (drop area or main window): You can drag and drop files to ShareXYZ main window or to the drag & drop box in order to upload them.
+* Shell context menu: In Windows you can right click file and select “Upload with ShareXYZ” to upload that file.
+* Send to (via Windows Explorer): Also when you right click file ShareXYZ will be in “Send to” submenu.
 * Watch folder: You can configure to watch specific folders so if new file appear in these folders that file will be automatically uploaded.
 
 #### After upload tasks
@@ -71,7 +71,7 @@ These tasks will automatically run after successful upload to any host.
 
 ## Destinations
 
-ShareX supports the following destinations.
+ShareXYZ supports the following destinations.
 
 #### Image uploaders
 
