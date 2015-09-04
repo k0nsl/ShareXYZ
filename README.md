@@ -1,4 +1,4 @@
-### Website: [getshare.xyz](https://getshare.xyz)
+### Website: [getshare.xyz](http://getshare.xyz)
 
 ShareXYZ is a fork of ShareX
 
@@ -170,4 +170,3 @@ Additional tools to make certain tasks more efficient.
 * Index folder: Allows you to share the index of a folder contents by uploading the index of the selected folder as text, html or xml.
 * FTP client: Opens a basic FTP client you interface for the currently configured FTP account.
 * Tweet message: Allows you to post message to Twitter.
-

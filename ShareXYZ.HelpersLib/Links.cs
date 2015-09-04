@@ -27,7 +27,7 @@ namespace ShareXYZ.HelpersLib
 {
     public static class Links
     {
-        public const string URL_WEBSITE = "https://getshare.xyz";
+        public const string URL_WEBSITE = "http://getshare.xyz";
         public const string URL_PROJECT = "https://github.com/ShareXYZ/ShareXYZ";
         public const string URL_ISSUES = URL_PROJECT + "/issues";
         public const string URL_UPDATE = URL_WEBSITE + "/Update.xml";
