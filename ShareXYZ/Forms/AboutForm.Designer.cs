@@ -35,13 +35,14 @@
             this.lblMike = new System.Windows.Forms.Label();
             this.rtbCredits = new System.Windows.Forms.RichTextBox();
             this.rtbShareXInfo = new System.Windows.Forms.RichTextBox();
-            this.cLogo = new ShareXYZ.HelpersLib.Canvas();
             this.uclUpdate = new ShareXYZ.HelpersLib.UpdateCheckerLabel();
             this.pbAU = new System.Windows.Forms.PictureBox();
             this.pbTR = new System.Windows.Forms.PictureBox();
             this.lblTeam = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbAU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblProductName
@@ -85,13 +86,6 @@
             this.rtbShareXInfo.ReadOnly = true;
             this.rtbShareXInfo.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.rtb_LinkClicked);
             // 
-            // cLogo
-            // 
-            resources.ApplyResources(this.cLogo, "cLogo");
-            this.cLogo.Interval = 100;
-            this.cLogo.Name = "cLogo";
-            this.cLogo.Draw += new ShareXYZ.HelpersLib.Canvas.DrawEventHandler(this.cLogo_Draw);
-            // 
             // uclUpdate
             // 
             resources.ApplyResources(this.uclUpdate, "uclUpdate");
@@ -118,11 +112,19 @@
             resources.ApplyResources(this.lblTeam, "lblTeam");
             this.lblTeam.Name = "lblTeam";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::ShareXYZ.Properties.Resources.ShareXYZ_Logo;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // AboutForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTeam);
             this.Controls.Add(this.rtbShareXInfo);
             this.Controls.Add(this.rtbCredits);
@@ -132,12 +134,12 @@
             this.Controls.Add(this.pbAU);
             this.Controls.Add(this.pbTR);
             this.Controls.Add(this.lblProductName);
-            this.Controls.Add(this.cLogo);
             this.MaximizeBox = false;
             this.Name = "AboutForm";
             this.Shown += new System.EventHandler(this.AboutForm_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pbAU)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,10 +152,10 @@
         private System.Windows.Forms.PictureBox pbTR;
         private System.Windows.Forms.PictureBox pbAU;
         private System.Windows.Forms.Label lblMike;
-        private HelpersLib.Canvas cLogo;
         private System.Windows.Forms.RichTextBox rtbCredits;
         private System.Windows.Forms.RichTextBox rtbShareXInfo;
         private HelpersLib.UpdateCheckerLabel uclUpdate;
         private System.Windows.Forms.Label lblTeam;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

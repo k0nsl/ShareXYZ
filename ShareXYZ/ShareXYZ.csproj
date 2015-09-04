@@ -511,6 +511,7 @@
     <None Include="Resources\balloon-white.png" />
     <None Include="Resources\cross.png" />
     <None Include="Resources\arrow-270.png" />
+    <None Include="Resources\ShareXYZ_Logo.png" />
     <Content Include="ShareXYZ_Icon.ico" />
     <Content Include="ShareX_Icon.ico" />
     <None Include="Resources\globe--pencil.png" />

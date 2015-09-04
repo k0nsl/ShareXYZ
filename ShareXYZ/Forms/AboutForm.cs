@@ -95,7 +95,6 @@ Copyright (c) 2007-2015 ShareX Team", Resources.AboutForm_AboutForm_Contributors
         private void AboutForm_Shown(object sender, EventArgs e)
         {
             this.ShowActivate();
-            cLogo.Start(50);
         }
 
         private void lblProductName_Click(object sender, EventArgs e)
@@ -117,87 +116,5 @@ Copyright (c) 2007-2015 ShareX Team", Resources.AboutForm_AboutForm_Contributors
         {
             URLHelpers.OpenURL(e.LinkText);
         }
-
-        #region Animation
-
-        private const int w = 200;
-        private const int h = w;
-        private const int mX = w / 2;
-        private const int mY = h / 2;
-        private const int minStep = 3;
-        private const int maxStep = 35;
-        private const int speed = 1;
-        private int step = 10;
-        private int direction = speed;
-        private Color lineColor = new HSB(0d, 1d, 0.9d);
-        private bool isPaused;
-        private int clickCount;
-
-        private void cLogo_Draw(Graphics g)
-        {
-            g.SetHighQuality();
-
-            using (Matrix m = new Matrix())
-            {
-                m.RotateAt(45, new PointF(mX, mY));
-                g.Transform = m;
-            }
-
-            using (Pen pen = new Pen(lineColor, 2))
-            {
-                for (int i = 0; i <= mX; i += step)
-                {
-                    g.DrawLine(pen, i, mY, mX, mY - i); // Left top
-                    g.DrawLine(pen, mX, i, mX + i, mY); // Right top
-                    g.DrawLine(pen, w - i, mY, mX, mY + i); // Right bottom
-                    g.DrawLine(pen, mX, h - i, mX - i, mY); // Left bottom
-
-                    /*
-                    g.DrawLine(pen, i, mY, mX, mY - i); // Left top
-                    g.DrawLine(pen, w - i, mY, mX, mY - i); // Right top
-                    g.DrawLine(pen, w - i, mY, mX, mY + i); // Right bottom
-                    g.DrawLine(pen, i, mY, mX, mY + i); // Left bottom
-                    */
-
-                    /*
-                    g.DrawLine(pen, mX, i, i, mY); // Left top
-                    g.DrawLine(pen, mX, i, w - i, mY); // Right top
-                    g.DrawLine(pen, mX, h - i, w - i, mY); // Right bottom
-                    g.DrawLine(pen, mX, h - i, i, mY); // Left bottom
-                    */
-                }
-
-                //g.DrawLine(pen, mX, 0, mX, h);
-            }
-
-            if (!isPaused)
-            {
-                if (step + speed > maxStep)
-                {
-                    direction = -speed;
-                }
-                else if (step - speed < minStep)
-                {
-                    direction = speed;
-                }
-
-                step += direction;
-
-                HSB hsb = lineColor;
-
-                if (hsb.Hue >= 1)
-                {
-                    hsb.Hue = 0;
-                }
-                else
-                {
-                    hsb.Hue += 0.01;
-                }
-
-                lineColor = hsb;
-            }
-        }
-
-        #endregion Animation
     }
 }
