@@ -122,58 +122,12 @@
     <Content Include="Resources\Crosshair.cur" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.de.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.es.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.fr.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.hu.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ko-KR.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.nl-NL.resx" />
-    <EmbeddedResource Include="Properties\Resources.pt-BR.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.tr.resx" />
-    <EmbeddedResource Include="Properties\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.de.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.es.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.fr.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.hu.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.ko-KR.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.nl-NL.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.pt-BR.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Screencast\FFmpegOptionsForm.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.tr.resx">
-      <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screencast\FFmpegOptionsForm.zh-CN.resx">
       <DependentUpon>FFmpegOptionsForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
