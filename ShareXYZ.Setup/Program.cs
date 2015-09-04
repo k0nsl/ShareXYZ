@@ -44,7 +44,7 @@ namespace ShareXYZ.Setup
         private const SetupType Setup = SetupType.Stable;
 
         private static string parentDir = @"..\..\..\";
-        private static string binDir = Path.Combine(parentDir, @"ShareX\bin");
+        private static string binDir = Path.Combine(parentDir, @"ShareXYZ\bin");
         private static string releaseDir = Path.Combine(binDir, "Release");
         private static string debugDir = Path.Combine(binDir, "Debug");
         private static string releasePath = Path.Combine(releaseDir, "ShareXYZ.exe");
@@ -122,7 +122,7 @@ namespace ShareXYZ.Setup
 
             CopyFiles(files, portableDir);
 
-            string[] languages = new string[] { "de", "es", "fr", "hu", "ko-KR", "nl-NL", "pt-BR", "tr", "zh-CN" };
+            string[] languages = new string[] { };
 
             foreach (string language in languages)
             {
@@ -170,7 +170,7 @@ namespace ShareXYZ.Setup
 
         private static void CopyFile(string path, string toFolder)
         {
-            CopyFiles(path, toFolder);
+            CopyFiles(new[] { path }, toFolder);
         }
 
         private static void CopyFiles(string directory, string searchPattern, string toFolder)

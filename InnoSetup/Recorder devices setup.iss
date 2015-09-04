@@ -1,4 +1,4 @@
-#define AppName "Recorder Devices for ShareX"
+#define AppName "Recorder Devices for ShareXYZ"
 #define AppVersion "0.12.8"
 
 [Setup]
