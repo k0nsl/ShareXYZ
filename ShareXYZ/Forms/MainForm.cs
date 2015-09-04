@@ -942,11 +942,6 @@ namespace ShareXYZ
             TaskHelpers.OpenImageEffects();
         }
 
-        private void tsmiHashCheck_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenHashCheck();
-        }
-
         private void tsmiQRCode_Click(object sender, EventArgs e)
         {
             TaskHelpers.OpenQRCode();
@@ -1640,9 +1635,6 @@ namespace ShareXYZ
                     break;
                 case HotkeyType.ImageEffects:
                     TaskHelpers.OpenImageEffects();
-                    break;
-                case HotkeyType.HashCheck:
-                    TaskHelpers.OpenHashCheck();
                     break;
                 case HotkeyType.QRCode:
                     TaskHelpers.OpenQRCode();

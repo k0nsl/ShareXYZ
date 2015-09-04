@@ -498,12 +498,6 @@
   <data name="tsmiImageEffects.Text" xml:space="preserve">
     <value>Image effects...</value>
   </data>
-  <data name="tsmiHashCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
-  </data>
-  <data name="tsmiHashCheck.Text" xml:space="preserve">
-    <value>Hash check...</value>
-  </data>
   <data name="tsmiQRCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 22</value>
   </data>
@@ -1248,12 +1242,6 @@
   <data name="tsmiTrayImageEffects.Text" xml:space="preserve">
     <value>Image effects...</value>
   </data>
-  <data name="tsmiTrayHashCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
-  </data>
-  <data name="tsmiTrayHashCheck.Text" xml:space="preserve">
-    <value>Hash check...</value>
-  </data>
   <data name="tsmiTrayQRCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 22</value>
   </data>
@@ -1672,12 +1660,6 @@
     <value>tsmiImageEffects</value>
   </data>
   <data name="&gt;&gt;tsmiImageEffects.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiHashCheck.Name" xml:space="preserve">
-    <value>tsmiHashCheck</value>
-  </data>
-  <data name="&gt;&gt;tsmiHashCheck.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiQRCode.Name" xml:space="preserve">
@@ -2344,12 +2326,6 @@
     <value>tsmiTrayImageEffects</value>
   </data>
   <data name="&gt;&gt;tsmiTrayImageEffects.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayHashCheck.Name" xml:space="preserve">
-    <value>tsmiTrayHashCheck</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayHashCheck.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTrayQRCode.Name" xml:space="preserve">

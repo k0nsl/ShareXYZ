@@ -170,7 +170,6 @@ namespace ShareXYZ
         ColorPicker,
         ScreenColorPicker,
         ImageEffects,
-        HashCheck,
         QRCode,
         Ruler,
         IndexFolder,

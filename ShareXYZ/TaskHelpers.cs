@@ -565,11 +565,6 @@ namespace ShareXYZ
             }
         }
 
-        public static void OpenHashCheck()
-        {
-            new HashCheckForm().Show();
-        }
-
         public static void OpenIndexFolder()
         {
             UploadManager.IndexFolder();
