@@ -2,6 +2,8 @@
 
 /*
     ShareXYZ - A program that allows you to take screenshots and share any file type
+
+    Copyright (c) 2015 ShareXYZ Team
     Copyright (c) 2007-2015 ShareX Team
 
     This program is free software; you can redistribute it and/or
@@ -98,7 +100,8 @@ ResX Resource Manager: https://resxresourcemanager.codeplex.com
 AWSSDK: http://aws.amazon.com/sdk-for-net/
 CLR Security: http://clrsecurity.codeplex.com
 
-Copyright (c) 2007-2015 ShareX Team", Resources.AboutForm_AboutForm_Contributors, Resources.AboutForm_AboutForm_Translators, Resources.AboutForm_AboutForm_External_libraries);
+Copyright (c) 2015 ShareXYZ Team
+    Copyright (c) 2007-2015 ShareX Team", Resources.AboutForm_AboutForm_Contributors, Resources.AboutForm_AboutForm_Translators, Resources.AboutForm_AboutForm_External_libraries);
         }
 
         private void AboutForm_Shown(object sender, EventArgs e)

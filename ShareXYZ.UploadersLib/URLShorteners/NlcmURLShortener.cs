@@ -2,6 +2,8 @@
 
 /*
     ShareXYZ - A program that allows you to take screenshots and share any file type
+
+    Copyright (c) 2015 ShareXYZ Team
     Copyright (c) 2007-2015 ShareX Team
 
     This program is free software; you can redistribute it and/or
