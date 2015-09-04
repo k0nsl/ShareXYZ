@@ -48,35 +48,8 @@ namespace ShareXYZ
                 switch (language)
                 {
                     default:
-                    case SupportedLanguage.Dutch:
-                        cultureName = "nl-NL";
-                        break;
                     case SupportedLanguage.English:
                         cultureName = "en-US";
-                        break;
-                    case SupportedLanguage.French:
-                        cultureName = "fr-FR";
-                        break;
-                    case SupportedLanguage.German:
-                        cultureName = "de-DE";
-                        break;
-                    case SupportedLanguage.Hungarian:
-                        cultureName = "hu-HU";
-                        break;
-                    case SupportedLanguage.Korean:
-                        cultureName = "ko-KR";
-                        break;
-                    case SupportedLanguage.PortugueseBrazil:
-                        cultureName = "pt-BR";
-                        break;
-                    case SupportedLanguage.SimplifiedChinese:
-                        cultureName = "zh-CN";
-                        break;
-                    case SupportedLanguage.Spanish:
-                        cultureName = "es-ES";
-                        break;
-                    case SupportedLanguage.Turkish:
-                        cultureName = "tr-TR";
                         break;
                 }
 

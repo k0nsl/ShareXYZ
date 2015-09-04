@@ -32,26 +32,8 @@ namespace ShareXYZ
     public enum SupportedLanguage
     {
         Automatic, // Localized
-        [Description("Nederlands (Dutch)")]
-        Dutch,
         [Description("English")]
         English,
-        [Description("Français (French)")]
-        French,
-        [Description("Deutsch (German)")]
-        German,
-        [Description("Magyar (Hungarian)")]
-        Hungarian,
-        [Description("한국어 (Korean)")]
-        Korean,
-        [Description("Português-Brasil (Portuguese-Brazil)")]
-        PortugueseBrazil,
-        [Description("简体中文 (Simplified Chinese)")]
-        SimplifiedChinese,
-        [Description("Español (Spanish)")]
-        Spanish,
-        [Description("Türkçe (Turkish)")]
-        Turkish
     }
 
     public enum TaskJob

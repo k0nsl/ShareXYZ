@@ -236,8 +236,8 @@ namespace ShareXYZ.Properties {
         /// </summary>
         public static string ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareXYZ_personal_folder_path {
             get {
-                return ResourceManager.GetString("ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareXYZ_personal_" +
-                        "folder_path", resourceCulture);
+                return ResourceManager.GetString("ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareXYZ_persona" +
+                        "l_folder_path", resourceCulture);
             }
         }
         
@@ -451,24 +451,6 @@ namespace ShareXYZ.Properties {
             get {
                 object obj = ResourceManager.GetObject("checkbox_uncheck", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Chrome support enabled..
-        /// </summary>
-        public static string ChromeForm_btnRegister_Click_Chrome_support_enabled_ {
-            get {
-                return ResourceManager.GetString("ChromeForm_btnRegister_Click_Chrome_support_enabled_", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Chrome support disabled..
-        /// </summary>
-        public static string ChromeForm_btnUnregister_Click_Chrome_support_disabled_ {
-            get {
-                return ResourceManager.GetString("ChromeForm_btnUnregister_Click_Chrome_support_disabled_", resourceCulture);
             }
         }
         
@@ -1181,8 +1163,8 @@ namespace ShareXYZ.Properties {
         /// </summary>
         public static string MainForm_AfterShownJobs_You_can_single_left_click_the_ShareXYZ_tray_icon_to_start_region_capture_ {
             get {
-                return ResourceManager.GetString("MainForm_AfterShownJobs_You_can_single_left_click_the_ShareXYZ_tray_icon_to_start_r" +
-                        "egion_capture_", resourceCulture);
+                return ResourceManager.GetString("MainForm_AfterShownJobs_You_can_single_left_click_the_ShareXYZ_tray_icon_to_start" +
+                        "_region_capture_", resourceCulture);
             }
         }
         

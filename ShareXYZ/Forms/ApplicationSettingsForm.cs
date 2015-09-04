@@ -144,35 +144,8 @@ namespace ShareXYZ
                 case SupportedLanguage.Automatic:
                     icon = Resources.globe;
                     break;
-                case SupportedLanguage.Dutch:
-                    icon = Resources.nl;
-                    break;
                 case SupportedLanguage.English:
                     icon = Resources.us;
-                    break;
-                case SupportedLanguage.French:
-                    icon = Resources.fr;
-                    break;
-                case SupportedLanguage.German:
-                    icon = Resources.de;
-                    break;
-                case SupportedLanguage.Hungarian:
-                    icon = Resources.hu;
-                    break;
-                case SupportedLanguage.Korean:
-                    icon = Resources.kr;
-                    break;
-                case SupportedLanguage.PortugueseBrazil:
-                    icon = Resources.br;
-                    break;
-                case SupportedLanguage.SimplifiedChinese:
-                    icon = Resources.cn;
-                    break;
-                case SupportedLanguage.Spanish:
-                    icon = Resources.es;
-                    break;
-                case SupportedLanguage.Turkish:
-                    icon = Resources.tr;
                     break;
             }
 
@@ -318,11 +291,6 @@ namespace ShareXYZ
         private void cbRememberMainFormSize_CheckedChanged(object sender, EventArgs e)
         {
             Program.Settings.RememberMainFormSize = cbRememberMainFormSize.Checked;
-        }
-
-        private void btnChromeSupport_Click(object sender, EventArgs e)
-        {
-            new ChromeForm().Show();
         }
 
         #endregion General

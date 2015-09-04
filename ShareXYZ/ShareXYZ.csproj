@@ -98,12 +98,6 @@
     <Compile Include="Forms\BeforeUploadForm.Designer.cs">
       <DependentUpon>BeforeUploadForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ChromeForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\ChromeForm.Designer.cs">
-      <DependentUpon>ChromeForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\ClipboardFormatForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -264,9 +258,6 @@
       <DependentUpon>BeforeUploadForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChromeForm.resx">
-      <DependentUpon>ChromeForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ClipboardFormatForm.resx">
       <DependentUpon>ClipboardFormatForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +282,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ApplicationSettingsForm.resx">
       <DependentUpon>ApplicationSettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -324,6 +316,7 @@
     <Compile Include="TaskInfo.cs" />
     <EmbeddedResource Include="Forms\HotkeySettingsForm.resx">
       <DependentUpon>HotkeySettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\VideoEncodersForm.resx">
       <DependentUpon>VideoEncodersForm.cs</DependentUpon>

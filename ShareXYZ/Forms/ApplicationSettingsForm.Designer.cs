@@ -33,7 +33,6 @@ namespace ShareXYZ
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ApplicationSettingsForm));
             this.tcSettings = new System.Windows.Forms.TabControl();
             this.tpGeneral = new System.Windows.Forms.TabPage();
-            this.btnChromeSupport = new System.Windows.Forms.Button();
             this.btnLanguages = new ShareXYZ.HelpersLib.MenuButton();
             this.cmsLanguages = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.llTranslators = new System.Windows.Forms.LinkLabel();
@@ -144,7 +143,6 @@ namespace ShareXYZ
             // 
             // tpGeneral
             // 
-            this.tpGeneral.Controls.Add(this.btnChromeSupport);
             this.tpGeneral.Controls.Add(this.btnLanguages);
             this.tpGeneral.Controls.Add(this.llTranslators);
             this.tpGeneral.Controls.Add(this.lblLanguage);
@@ -160,13 +158,6 @@ namespace ShareXYZ
             resources.ApplyResources(this.tpGeneral, "tpGeneral");
             this.tpGeneral.Name = "tpGeneral";
             this.tpGeneral.UseVisualStyleBackColor = true;
-            // 
-            // btnChromeSupport
-            // 
-            resources.ApplyResources(this.btnChromeSupport, "btnChromeSupport");
-            this.btnChromeSupport.Name = "btnChromeSupport";
-            this.btnChromeSupport.UseVisualStyleBackColor = true;
-            this.btnChromeSupport.Click += new System.EventHandler(this.btnChromeSupport_Click);
             // 
             // btnLanguages
             // 
@@ -847,6 +838,5 @@ namespace ShareXYZ
         private TabToTreeView tttvMain;
         private MenuButton btnLanguages;
         private System.Windows.Forms.ContextMenuStrip cmsLanguages;
-        private System.Windows.Forms.Button btnChromeSupport;
     }
 }
