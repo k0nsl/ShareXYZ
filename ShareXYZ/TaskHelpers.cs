@@ -565,33 +565,6 @@ namespace ShareXYZ
             }
         }
 
-        public static void OpenAutomate()
-        {
-            AutomateForm form = AutomateForm.GetInstance(Program.Settings.AutomateScripts);
-            form.ShowActivate();
-        }
-
-        public static void StartAutomate()
-        {
-            AutomateForm form = AutomateForm.GetInstance(Program.Settings.AutomateScripts);
-
-            if (form.Visible)
-            {
-                if (AutomateForm.IsRunning)
-                {
-                    form.Stop();
-                }
-                else
-                {
-                    form.Start();
-                }
-            }
-            else
-            {
-                form.ShowActivate();
-            }
-        }
-
         public static void OpenHashCheck()
         {
             new HashCheckForm().Show();

@@ -73,7 +73,6 @@
             this.tsmiHashCheck = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiQRCode = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiRuler = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiAutomate = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiIndexFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiVideoThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiFTPClient = new System.Windows.Forms.ToolStripMenuItem();
@@ -188,7 +187,6 @@
             this.tsmiTrayHashCheck = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayQRCode = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayRuler = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiTrayAutomate = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayIndexFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayVideoThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTrayFTPClient = new System.Windows.Forms.ToolStripMenuItem();
@@ -541,7 +539,6 @@
             this.tsmiHashCheck,
             this.tsmiQRCode,
             this.tsmiRuler,
-            this.tsmiAutomate,
             this.tsmiIndexFolder,
             this.tsmiVideoThumbnailer,
             this.tsmiFTPClient,
@@ -592,13 +589,6 @@
             this.tsmiRuler.Name = "tsmiRuler";
             resources.ApplyResources(this.tsmiRuler, "tsmiRuler");
             this.tsmiRuler.Click += new System.EventHandler(this.tsmiRuler_Click);
-            // 
-            // tsmiAutomate
-            // 
-            this.tsmiAutomate.Image = global::ShareXYZ.Properties.Resources.robot;
-            this.tsmiAutomate.Name = "tsmiAutomate";
-            resources.ApplyResources(this.tsmiAutomate, "tsmiAutomate");
-            this.tsmiAutomate.Click += new System.EventHandler(this.tsmiAutomate_Click);
             // 
             // tsmiIndexFolder
             // 
@@ -1406,7 +1396,6 @@
             this.tsmiTrayHashCheck,
             this.tsmiTrayQRCode,
             this.tsmiTrayRuler,
-            this.tsmiTrayAutomate,
             this.tsmiTrayIndexFolder,
             this.tsmiTrayVideoThumbnailer,
             this.tsmiTrayFTPClient,
@@ -1457,13 +1446,6 @@
             this.tsmiTrayRuler.Name = "tsmiTrayRuler";
             resources.ApplyResources(this.tsmiTrayRuler, "tsmiTrayRuler");
             this.tsmiTrayRuler.Click += new System.EventHandler(this.tsmiRuler_Click);
-            // 
-            // tsmiTrayAutomate
-            // 
-            this.tsmiTrayAutomate.Image = global::ShareXYZ.Properties.Resources.robot;
-            this.tsmiTrayAutomate.Name = "tsmiTrayAutomate";
-            resources.ApplyResources(this.tsmiTrayAutomate, "tsmiTrayAutomate");
-            this.tsmiTrayAutomate.Click += new System.EventHandler(this.tsmiAutomate_Click);
             // 
             // tsmiTrayIndexFolder
             // 
@@ -1876,8 +1858,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayScreenColorPicker;
         public System.Windows.Forms.ToolStripMenuItem tsmiTrayRecentItems;
         private System.Windows.Forms.ContextMenuStrip cmsTray;
-        private System.Windows.Forms.ToolStripMenuItem tsmiAutomate;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayAutomate;
         private System.Windows.Forms.ToolStripMenuItem tsmiRectangleTransparent;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayRectangleTransparent;
         private System.Windows.Forms.ToolStripMenuItem tsmiWebpageCapture;

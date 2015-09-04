@@ -173,7 +173,6 @@ namespace ShareXYZ
         HashCheck,
         QRCode,
         Ruler,
-        Automate,
         IndexFolder,
         FTPClient,
         TweetMessage,

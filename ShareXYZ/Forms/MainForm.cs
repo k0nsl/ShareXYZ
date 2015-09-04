@@ -957,11 +957,6 @@ namespace ShareXYZ
             TaskHelpers.OpenRuler();
         }
 
-        private void tsmiAutomate_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenAutomate();
-        }
-
         private void tsmiIndexFolder_Click(object sender, EventArgs e)
         {
             TaskHelpers.OpenIndexFolder();
@@ -1654,9 +1649,6 @@ namespace ShareXYZ
                     break;
                 case HotkeyType.Ruler:
                     TaskHelpers.OpenRuler();
-                    break;
-                case HotkeyType.Automate:
-                    TaskHelpers.StartAutomate();
                     break;
                 case HotkeyType.IndexFolder:
                     TaskHelpers.OpenIndexFolder();
