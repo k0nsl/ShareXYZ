@@ -140,7 +140,6 @@
             this.tsmiCopyFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.tssCopy5 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmiUploadSelectedFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiEditSelectedFile = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiDeleteSelectedFile = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiShortenSelectedURL = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiShareSelectedURL = new System.Windows.Forms.ToolStripMenuItem();
@@ -798,7 +797,6 @@
             this.tsmiOpen,
             this.tsmiCopy,
             this.tsmiUploadSelectedFile,
-            this.tsmiEditSelectedFile,
             this.tsmiDeleteSelectedFile,
             this.tsmiShortenSelectedURL,
             this.tsmiShareSelectedURL,
@@ -1064,11 +1062,6 @@
             this.tsmiUploadSelectedFile.Name = "tsmiUploadSelectedFile";
             resources.ApplyResources(this.tsmiUploadSelectedFile, "tsmiUploadSelectedFile");
             this.tsmiUploadSelectedFile.Click += new System.EventHandler(this.tsmiUploadSelectedFile_Click);
-            // 
-            // tsmiEditSelectedFile
-            // 
-            this.tsmiEditSelectedFile.Name = "tsmiEditSelectedFile";
-            resources.ApplyResources(this.tsmiEditSelectedFile, "tsmiEditSelectedFile");
             // 
             // tsmiDeleteSelectedFile
             // 
@@ -1806,7 +1799,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiShortenSelectedURL;
         private System.Windows.Forms.ToolStripMenuItem tsmiRectangleAnnotate;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayRectangleAnnotate;
-        private System.Windows.Forms.ToolStripMenuItem tsmiEditSelectedFile;
         private System.Windows.Forms.ToolStripMenuItem tsmiTestURLSharing;
         private System.Windows.Forms.ToolStripMenuItem tsmiDeleteSelectedFile;
         private System.Windows.Forms.ToolStripMenuItem tsmiScreenRecordingFFmpeg;
