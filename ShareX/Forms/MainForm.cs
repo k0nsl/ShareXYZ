@@ -945,11 +945,6 @@ namespace ShareX
             TaskHelpers.OpenScreenColorPicker();
         }
 
-        private void tsmiImageEditor_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenImageEditor();
-        }
-
         private void tsmiImageEffects_Click(object sender, EventArgs e)
         {
             TaskHelpers.OpenImageEffects();
@@ -1467,11 +1462,6 @@ namespace ShareX
             }
         }
 
-        private void tsmiEditSelectedFile_Click(object sender, EventArgs e)
-        {
-            uim.EditImage();
-        }
-
         private void tsmiShowQRCode_Click(object sender, EventArgs e)
         {
             uim.ShowQRCode();
@@ -1675,9 +1665,6 @@ namespace ShareX
                     break;
                 case HotkeyType.ScreenColorPicker:
                     TaskHelpers.OpenScreenColorPicker(safeTaskSettings);
-                    break;
-                case HotkeyType.ImageEditor:
-                    TaskHelpers.OpenImageEditor();
                     break;
                 case HotkeyType.ImageEffects:
                     TaskHelpers.OpenImageEffects();
@@ -2322,6 +2309,16 @@ namespace ShareX
         private void tsmiTrayRectangleLight_Click(object sender, EventArgs e)
         {
             CaptureRectangleLight(null, false);
+        }
+
+        private void tsMain_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void cmsTaskInfo_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
         }
 
         private void tsmiTrayRectangleTransparent_Click(object sender, EventArgs e)

@@ -97,19 +97,15 @@ namespace ShareX.ImageEffectsLib
                 typeof(Sepia));
 
             AddEffectToContextMenu(Resources.ImageEffectsForm_AddAllEffectsToTreeView_Filters,
-                typeof(Blur),
                 typeof(EdgeDetect),
                 typeof(Emboss),
                 typeof(GaussianBlur),
                 typeof(MatrixConvolution),
                 typeof(MeanRemoval),
                 typeof(Outline),
-                typeof(Pixelate),
                 typeof(Reflection),
-                typeof(Shadow),
                 typeof(Sharpen),
-                typeof(Smooth),
-                typeof(TornEdge));
+                typeof(Smooth));
         }
 
         private void AddEffectToContextMenu(string groupName, params Type[] imageEffects)

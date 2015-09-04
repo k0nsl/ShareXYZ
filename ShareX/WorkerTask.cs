@@ -502,16 +502,6 @@ namespace ShareX
                 tempImage = TaskHelpers.AddImageEffects(tempImage, Info.TaskSettings);
             }
 
-            if (Info.TaskSettings.AfterCaptureJob.HasFlag(AfterCaptureTasks.AnnotateImage))
-            {
-                tempImage = TaskHelpers.AnnotateImage(tempImage, Info.FileName);
-
-                if (tempImage == null)
-                {
-                    return false;
-                }
-            }
-
             if (Info.TaskSettings.AfterCaptureJob.HasFlag(AfterCaptureTasks.CopyImageToClipboard))
             {
                 ClipboardHelpers.CopyImage(tempImage);

@@ -78,7 +78,7 @@ namespace ShareX
     {
         None = 0,
         AddImageEffects = 1,
-        AnnotateImage = 1 << 1,
+        // AnnotateImage = 1 << 1,
         CopyImageToClipboard = 1 << 2,
         SendImageToPrinter = 1 << 3,
         SaveImageToFile = 1 << 4,
@@ -168,7 +168,6 @@ namespace ShareX
         // Tools
         ColorPicker,
         ScreenColorPicker,
-        ImageEditor,
         ImageEffects,
         HashCheck,
         DNSChanger,
@@ -201,8 +200,6 @@ namespace ShareX
     [DefaultValue(OpenUrl)]
     public enum ToastClickAction
     {
-        [Description("Annotate image")]
-        AnnotateImage,
         [Description("Copy image to clipboard")]
         CopyImageToClipboard,
         [Description("Copy URL")]

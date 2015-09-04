@@ -223,26 +223,6 @@ namespace ShareX
             return true;
         }
 
-        public static void AnnotateImage(string filePath)
-        {
-            AnnotateImage(null, filePath);
-        }
-
-        public static Image AnnotateImage(Image img, string imgPath)
-        {
-            return ImageHelpers.AnnotateImage(img, imgPath, !Program.IsSandbox, Program.PersonalPath,
-                x => Program.MainForm.InvokeSafe(() => ClipboardHelpers.CopyImage(x)),
-                x => Program.MainForm.InvokeSafe(() => UploadManager.UploadImage(x)),
-                (x, filePath) => Program.MainForm.InvokeSafe(() => ImageHelpers.SaveImage(x, filePath)),
-                (x, filePath) =>
-                {
-                    string newFilePath = null;
-                    Program.MainForm.InvokeSafe(() => newFilePath = ImageHelpers.SaveImageFileDialog(x, filePath));
-                    return newFilePath;
-                },
-                x => Program.MainForm.InvokeSafe(() => PrintImage(x)));
-        }
-
         public static void PrintImage(Image img)
         {
             if (Program.Settings.DontShowPrintSettingsDialog)
@@ -645,33 +625,6 @@ namespace ShareX
                 }
             };
             thumbnailerForm.Show();
-        }
-
-        public static void OpenImageEditor(string filePath = null)
-        {
-            if (string.IsNullOrEmpty(filePath))
-            {
-                if (Clipboard.ContainsImage() &&
-                    MessageBox.Show(Resources.TaskHelpers_OpenImageEditor_Your_clipboard_contains_image,
-                    Resources.TaskHelpers_OpenImageEditor_Image_editor___How_to_load_image_, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    using (Image img = Clipboard.GetImage())
-                    {
-                        if (img != null)
-                        {
-                            AnnotateImage(img, null);
-                            return;
-                        }
-                    }
-                }
-
-                filePath = ImageHelpers.OpenImageFileDialog();
-            }
-
-            if (!string.IsNullOrEmpty(filePath))
-            {
-                AnnotateImage(filePath);
-            }
         }
 
         public static void OpenImageEffects()

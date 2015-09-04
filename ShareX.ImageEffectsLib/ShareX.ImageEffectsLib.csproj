@@ -82,7 +82,6 @@
     <Compile Include="Filters\MatrixConvolution.cs" />
     <Compile Include="Filters\MeanRemoval.cs" />
     <Compile Include="Filters\Outline.cs" />
-    <Compile Include="Filters\Pixelate.cs" />
     <Compile Include="Filters\Sharpen.cs" />
     <Compile Include="Filters\Smooth.cs" />
     <Compile Include="ImageEffectManager.cs" />
@@ -97,9 +96,6 @@
     <Compile Include="Manipulations\Crop.cs" />
     <Compile Include="Manipulations\RoundedCorners.cs" />
     <Compile Include="Manipulations\Skew.cs" />
-    <Compile Include="Filters\Blur.cs" />
-    <Compile Include="Filters\Shadow.cs" />
-    <Compile Include="Filters\TornEdge.cs" />
     <Compile Include="Manipulations\Canvas.cs" />
     <Compile Include="Drawings\DrawBackground.cs" />
     <Compile Include="Manipulations\Flip.cs" />
