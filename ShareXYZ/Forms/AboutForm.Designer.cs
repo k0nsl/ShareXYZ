@@ -39,14 +39,10 @@
             this.rtbShareXInfo = new System.Windows.Forms.RichTextBox();
             this.cLogo = new ShareXYZ.HelpersLib.Canvas();
             this.uclUpdate = new ShareXYZ.HelpersLib.UpdateCheckerLabel();
-            this.pbMikeURL = new System.Windows.Forms.PictureBox();
             this.pbAU = new System.Windows.Forms.PictureBox();
-            this.pbBerkURL = new System.Windows.Forms.PictureBox();
             this.pbTR = new System.Windows.Forms.PictureBox();
             this.lblTeam = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMikeURL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBerkURL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,16 +100,6 @@
             resources.ApplyResources(this.uclUpdate, "uclUpdate");
             this.uclUpdate.Name = "uclUpdate";
             // 
-            // pbMikeURL
-            // 
-            this.pbMikeURL.BackColor = System.Drawing.Color.Transparent;
-            this.pbMikeURL.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbMikeURL.Image = global::ShareXYZ.Properties.Resources.GitHub;
-            resources.ApplyResources(this.pbMikeURL, "pbMikeURL");
-            this.pbMikeURL.Name = "pbMikeURL";
-            this.pbMikeURL.TabStop = false;
-            this.pbMikeURL.Click += new System.EventHandler(this.pbMikeURL_Click);
-            // 
             // pbAU
             // 
             this.pbAU.BackColor = System.Drawing.Color.Transparent;
@@ -121,16 +107,6 @@
             resources.ApplyResources(this.pbAU, "pbAU");
             this.pbAU.Name = "pbAU";
             this.pbAU.TabStop = false;
-            // 
-            // pbBerkURL
-            // 
-            this.pbBerkURL.BackColor = System.Drawing.Color.Transparent;
-            this.pbBerkURL.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbBerkURL.Image = global::ShareXYZ.Properties.Resources.GitHub;
-            resources.ApplyResources(this.pbBerkURL, "pbBerkURL");
-            this.pbBerkURL.Name = "pbBerkURL";
-            this.pbBerkURL.TabStop = false;
-            this.pbBerkURL.Click += new System.EventHandler(this.pbBerkURL_Click);
             // 
             // pbTR
             // 
@@ -156,18 +132,14 @@
             this.Controls.Add(this.lblBerk);
             this.Controls.Add(this.lblMike);
             this.Controls.Add(this.uclUpdate);
-            this.Controls.Add(this.pbMikeURL);
             this.Controls.Add(this.pbAU);
-            this.Controls.Add(this.pbBerkURL);
             this.Controls.Add(this.pbTR);
             this.Controls.Add(this.lblProductName);
             this.Controls.Add(this.cLogo);
             this.MaximizeBox = false;
             this.Name = "AboutForm";
             this.Shown += new System.EventHandler(this.AboutForm_Shown);
-            ((System.ComponentModel.ISupportInitialize)(this.pbMikeURL)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAU)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBerkURL)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -179,8 +151,6 @@
         private System.Windows.Forms.Label lblProductName;
         private System.Windows.Forms.Label lblBerk;
         private System.Windows.Forms.PictureBox pbTR;
-        private System.Windows.Forms.PictureBox pbBerkURL;
-        private System.Windows.Forms.PictureBox pbMikeURL;
         private System.Windows.Forms.PictureBox pbAU;
         private System.Windows.Forms.Label lblMike;
         private HelpersLib.Canvas cLogo;

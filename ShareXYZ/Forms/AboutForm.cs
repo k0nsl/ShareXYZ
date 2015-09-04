@@ -70,18 +70,6 @@ VideoBin support: https://github.com/corey-/
 Up1 support: https://github.com/Upload
 LnkU, CoinURL, QRnet, VURL, 2gp, SomeImage, OneTimeSecret, Polr support: https://github.com/DanielMcAssey
 
-{1}:
-
-Turkish: https://github.com/Jaex & https://github.com/muratmoon
-German: https://github.com/Starbug2
-French: https://github.com/nwies & https://github.com/Shadorc
-Simplified Chinese: https://github.com/jiajiechan
-Hungarian: https://github.com/devBluestar
-Korean: https://github.com/123jimin
-Spanish: https://github.com/ovnisoftware
-Dutch: https://github.com/canihavesomecoffee
-Portuguese (Brazil): https://github.com/athosbr99 & https://github.com/RockyTV
-
 {2}:
 
 Greenshot Image Editor: https://bitbucket.org/greenshot/greenshot
