@@ -131,7 +131,7 @@ namespace ShareXYZ.Setup
                 CopyFiles(Path.Combine(releaseDir, language), "*.resources.dll", Path.Combine(portableDir, "Languages", language));
             }
 
-            CopyFile(Path.Combine(outputDir, "Recorder-devices-setup.exe"), portableDir)
+            CopyFile(Path.Combine(outputDir, "Recorder-devices-setup.exe"), portableDir);
 
             File.WriteAllText(Path.Combine(portableDir, "PersonalPath.cfg"), "ShareX", Encoding.UTF8);
 

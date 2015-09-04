@@ -18,8 +18,6 @@
                 components.Dispose();
             }
 
-            if (bounceTimer != null) bounceTimer.Dispose();
-
             base.Dispose(disposing);
         }
 
@@ -93,7 +91,6 @@
             this.cLogo.Interval = 100;
             this.cLogo.Name = "cLogo";
             this.cLogo.Draw += new ShareXYZ.HelpersLib.Canvas.DrawEventHandler(this.cLogo_Draw);
-            this.cLogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.cLogo_MouseDown);
             // 
             // uclUpdate
             // 
