@@ -79,7 +79,7 @@ namespace ShareXYZ
     {
         None = 0,
         AddImageEffects = 1,
-        // AnnotateImage = 1 << 1,
+        Unused = 1 << 1,
         CopyImageToClipboard = 1 << 2,
         SendImageToPrinter = 1 << 3,
         SaveImageToFile = 1 << 4,
