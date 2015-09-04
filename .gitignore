@@ -129,7 +129,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -197,5 +197,5 @@ FakesAssemblies/
 
 # Additional
 InnoSetup/Output/
-ShareX/GitHash.txt
-ShareX.UploadersLib/APIKeys/APIKeysLocal.cs
+ShareXYZ/GitHash.txt
+ShareXYZ.UploadersLib/APIKeys/APIKeysLocal.cs
